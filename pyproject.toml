@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "stock-research-tool"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "stock_research_tool"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.4.8"
+numpy = "^1.23.4"
+scipy = "^1.9.2"
+matplotlib = "^3.6.1"
+voila = "^0.3.6"
+pandas = "^1.5.0"
+yfinance = "^0.1.77"
+sure = "^2.0.0"
+pytest = "^7.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
